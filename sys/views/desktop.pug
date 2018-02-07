@@ -1,0 +1,22 @@
+doctype html
+
+html
+    head
+        meta(charset="UTF-8")
+        title Desktop
+        link(rel="stylesheet", href="/styles/materialize.css")
+        link(rel="stylesheet", href="/styles/desktop.css")
+        link(rel="stylesheet", href="/styles/window.css")
+        link(rel="stylesheet", href="/styles/panel.css")
+        link(rel="stylesheet", href="/styles/font-config.css")
+
+        
+    body
+        div.desktop
+            include ./panel.pug
+            include ./window.pug
+            
+        script(src="/libs/jquery-1.10.2.js")
+        script(src="/libs/materialize.js")
+        script(src="/libs/draggabilly.pkgd.js")
+        script(src="/scripts/desktop.js")

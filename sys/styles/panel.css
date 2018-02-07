@@ -1,0 +1,10 @@
+.panel {
+    width: 100%;
+    height: 24px;
+    background: #dddddd;
+}
+
+.tray-icon {
+    display: inline-block;
+}
+
